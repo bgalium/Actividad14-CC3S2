@@ -1,8 +1,6 @@
 .venv/
 __pycache__/
 *.tfstate*
-.terraform/
 *.plan
 *.bak
-test_*.py
-terraform/bienvenida.txt
+
