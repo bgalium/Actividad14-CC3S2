@@ -1,0 +1,22 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-8.4.2, pluggy-1.6.0
+rootdir: /home/walter/DesarrolloSoftware/Actividad14-CC3S2
+collected 5 items
+
+test_patterns.py .....                                                   [100%]
+
+=============================== warnings summary ===============================
+iac_patterns/factory.py:34
+iac_patterns/factory.py:34
+iac_patterns/factory.py:34
+iac_patterns/factory.py:34
+iac_patterns/factory.py:34
+test_patterns.py::test_prototype_clone_independent
+test_patterns.py::test_factory_creates_resource_structure
+test_patterns.py::test_composite_export_merges
+test_patterns.py::test_composite_export_merges
+  /home/walter/DesarrolloSoftware/Actividad14-CC3S2/iac_patterns/factory.py:34: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+    triggers.setdefault("timestamp", datetime.utcnow().isoformat())
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+======================== 5 passed, 9 warnings in 0.04s =========================

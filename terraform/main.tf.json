@@ -7,9 +7,9 @@
                         "bucket_name": "mi_bucket_adaptado",
                         "parameters": {
                             "adapter_source": true,
-                            "created_at_utc": "2025-10-31T16:50:14.861819+00:00",
-                            "factory_uuid": "8e0dac4c-d321-445e-93f1-73636f40fd94",
-                            "timestamp": "2025-10-31T16:50:14.861876"
+                            "created_at_utc": "2025-10-31T17:15:25.914000+00:00",
+                            "factory_uuid": "fe8b37db-398f-4870-b60d-0dd16d648c8b",
+                            "timestamp": "2025-10-31T17:15:25.914089"
                         }
                     }
                 ]
