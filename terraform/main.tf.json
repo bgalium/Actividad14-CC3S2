@@ -1,12 +1,31 @@
 {
-    "resource": {
-        "null_resource": {
-            "recurso_formato": {
-                "triggers": {
-                    "factory_uuid": "eeb28fb8-48b7-42a1-84cf-7e00c0f0398e",
-                    "timestamp_fmt": "20251031"
+    "resource": [
+        {
+            "null_resource": [
+                {
+                    "app_0": [
+                        {
+                            "triggers": {
+                                "factory_uuid": "6ab79352-3d8a-4b29-a0d3-37d96475d79e",
+                                "timestamp": "2025-10-31T05:13:53.812250",
+                                "welcome": "\u00a1Hola desde el mutator!"
+                            }
+                        }
+                    ]
                 }
-            }
+            ]
+        },
+        {
+            "local_file": [
+                {
+                    "welcome_txt": [
+                        {
+                            "content": "Bienvenido",
+                            "filename": "bienvenida.txt"
+                        }
+                    ]
+                }
+            ]
         }
-    }
+    ]
 }
