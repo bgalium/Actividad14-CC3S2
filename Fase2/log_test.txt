@@ -1,0 +1,2 @@
+ Ejercicio 2.1: Singleton reset
+El método reset() funciona.
