@@ -4,5 +4,4 @@ __pycache__/
 .terraform/
 *.plan
 *.bak
-test_*.py
 terraform/bienvenida.txt
