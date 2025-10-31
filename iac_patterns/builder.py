@@ -22,6 +22,35 @@ class InfrastructureBuilder:
 
     #  Métodos de construcción (steps) 
 
+    def build_group(self, name: str, size: int) -> "InfrastructureBuilder":
+        
+        base = NullResourceFactory.create(name)
+        proto = ResourcePrototype(base)
+        
+        group_module = CompositeModule()
+
+        for i in range(size):
+            def mutator(block: Dict[str, Any], idx=i) -> None:
+                res_block = block["resource"][0]["null_resource"][0]
+                original_name = next(iter(res_block.keys()))
+                
+                new_name = f"{original_name}_{idx}"
+                
+                res_data = res_block.pop(original_name)
+                res_data[0]["triggers"]["index"] = idx
+                res_block[new_name] = res_data
+
+            group_module.add(proto.clone(mutator).data)
+
+        self._module.add({
+            "module": [{
+                name: [group_module.export()]
+            }]
+        })
+        
+        return self
+
+
     def build_null_fleet(self, count: int = 5) -> "InfrastructureBuilder":
         """
         Construye una flota de `null_resource` clonados a partir de un prototipo base.
