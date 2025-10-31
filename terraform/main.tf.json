@@ -1,0 +1,12 @@
+{
+    "resource": {
+        "null_resource": {
+            "recurso_formato": {
+                "triggers": {
+                    "factory_uuid": "eeb28fb8-48b7-42a1-84cf-7e00c0f0398e",
+                    "timestamp_fmt": "20251031"
+                }
+            }
+        }
+    }
+}
