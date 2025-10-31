@@ -1,0 +1,171 @@
+{
+    "resource": {
+        "null_resource": [
+            {
+                "placeholder_0": [
+                    {
+                        "triggers": {
+                            "factory_uuid": "b13782b8-64f5-449c-abcd-bf5b0d1d8064",
+                            "timestamp": "2025-10-31T17:51:15.521527",
+                            "index": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "placeholder_1": [
+                    {
+                        "triggers": {
+                            "factory_uuid": "b13782b8-64f5-449c-abcd-bf5b0d1d8064",
+                            "timestamp": "2025-10-31T17:51:15.521527",
+                            "index": 1
+                        }
+                    }
+                ]
+            },
+            {
+                "placeholder_2": [
+                    {
+                        "triggers": {
+                            "factory_uuid": "b13782b8-64f5-449c-abcd-bf5b0d1d8064",
+                            "timestamp": "2025-10-31T17:51:15.521527",
+                            "index": 2
+                        }
+                    }
+                ]
+            },
+            {
+                "placeholder_3": [
+                    {
+                        "triggers": {
+                            "factory_uuid": "b13782b8-64f5-449c-abcd-bf5b0d1d8064",
+                            "timestamp": "2025-10-31T17:51:15.521527",
+                            "index": 3
+                        }
+                    }
+                ]
+            },
+            {
+                "placeholder_4": [
+                    {
+                        "triggers": {
+                            "factory_uuid": "b13782b8-64f5-449c-abcd-bf5b0d1d8064",
+                            "timestamp": "2025-10-31T17:51:15.521527",
+                            "index": 4
+                        }
+                    }
+                ]
+            },
+            {
+                "placeholder_5": [
+                    {
+                        "triggers": {
+                            "factory_uuid": "b13782b8-64f5-449c-abcd-bf5b0d1d8064",
+                            "timestamp": "2025-10-31T17:51:15.521527",
+                            "index": 5
+                        }
+                    }
+                ]
+            },
+            {
+                "placeholder_6": [
+                    {
+                        "triggers": {
+                            "factory_uuid": "b13782b8-64f5-449c-abcd-bf5b0d1d8064",
+                            "timestamp": "2025-10-31T17:51:15.521527",
+                            "index": 6
+                        }
+                    }
+                ]
+            },
+            {
+                "placeholder_7": [
+                    {
+                        "triggers": {
+                            "factory_uuid": "b13782b8-64f5-449c-abcd-bf5b0d1d8064",
+                            "timestamp": "2025-10-31T17:51:15.521527",
+                            "index": 7
+                        }
+                    }
+                ]
+            },
+            {
+                "placeholder_8": [
+                    {
+                        "triggers": {
+                            "factory_uuid": "b13782b8-64f5-449c-abcd-bf5b0d1d8064",
+                            "timestamp": "2025-10-31T17:51:15.521527",
+                            "index": 8
+                        }
+                    }
+                ]
+            },
+            {
+                "placeholder_9": [
+                    {
+                        "triggers": {
+                            "factory_uuid": "b13782b8-64f5-449c-abcd-bf5b0d1d8064",
+                            "timestamp": "2025-10-31T17:51:15.521527",
+                            "index": 9
+                        }
+                    }
+                ]
+            },
+            {
+                "placeholder_10": [
+                    {
+                        "triggers": {
+                            "factory_uuid": "b13782b8-64f5-449c-abcd-bf5b0d1d8064",
+                            "timestamp": "2025-10-31T17:51:15.521527",
+                            "index": 10
+                        }
+                    }
+                ]
+            },
+            {
+                "placeholder_11": [
+                    {
+                        "triggers": {
+                            "factory_uuid": "b13782b8-64f5-449c-abcd-bf5b0d1d8064",
+                            "timestamp": "2025-10-31T17:51:15.521527",
+                            "index": 11
+                        }
+                    }
+                ]
+            },
+            {
+                "placeholder_12": [
+                    {
+                        "triggers": {
+                            "factory_uuid": "b13782b8-64f5-449c-abcd-bf5b0d1d8064",
+                            "timestamp": "2025-10-31T17:51:15.521527",
+                            "index": 12
+                        }
+                    }
+                ]
+            },
+            {
+                "placeholder_13": [
+                    {
+                        "triggers": {
+                            "factory_uuid": "b13782b8-64f5-449c-abcd-bf5b0d1d8064",
+                            "timestamp": "2025-10-31T17:51:15.521527",
+                            "index": 13
+                        }
+                    }
+                ]
+            },
+            {
+                "placeholder_14": [
+                    {
+                        "triggers": {
+                            "factory_uuid": "b13782b8-64f5-449c-abcd-bf5b0d1d8064",
+                            "timestamp": "2025-10-31T17:51:15.521527",
+                            "index": 14
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}
