@@ -4,7 +4,7 @@ Encapsula la lógica de creación de objetos para recursos Terraform del tipo nu
 
 from typing import Dict, Any
 import uuid
-from datetime import datetime
+from datetime import datetime, timezone
 
 class NullResourceFactory:
     """
@@ -42,4 +42,20 @@ class NullResourceFactory:
                     }]
                 }]
             }]
+        }
+
+class TimestampedNullResourceFactory(NullResourceFactory):
+    @staticmethod
+    def create(name: str, fmt: str) -> dict:
+        ts = datetime.now(timezone.utc).strftime(fmt)   
+        triggers = {
+            "factory_uuid": str(uuid.uuid4()),
+            "timestamp_fmt": ts # Usamos el nuevo timestamp
+        }
+        return {
+            "resource": {
+                "null_resource": {
+                    name: {"triggers": triggers}
+                }
+            }
         }
