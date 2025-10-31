@@ -3,5 +3,3 @@ __pycache__/
 *.tfstate*
 *.plan
 *.bak
-test_*.py
-terraform/bienvenida.txt
