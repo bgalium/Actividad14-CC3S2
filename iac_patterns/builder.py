@@ -9,6 +9,8 @@ import json
 from .factory import NullResourceFactory
 from .composite import CompositeModule
 from .prototype import ResourcePrototype
+from datetime import datetime, timezone
+from .adapter import MockBucketAdapter
 
 class InfrastructureBuilder:
     """Builder fluido que combina los patrones Factory, Prototype y Composite para crear módulos Terraform."""
@@ -116,3 +118,18 @@ class InfrastructureBuilder:
             json.dump(data, f, indent=4)
 
         print(f"[Builder] Terraform JSON escrito en: {path}")
+
+    def add_adapted_bucket(self, name: str) -> "InfrastructureBuilder":
+        triggers = {
+            "adapter_source": True,
+            "created_at_utc": datetime.now(timezone.utc).isoformat()
+        }
+        null_block = NullResourceFactory.create(name, triggers)
+
+        adapter = MockBucketAdapter(null_block)
+
+        bucket_block = adapter.to_bucket()
+
+        self._module.add(bucket_block)
+
+        return self
