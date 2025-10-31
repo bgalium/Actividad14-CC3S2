@@ -1,0 +1,40 @@
+{
+    "module": {
+        "network": [
+            {
+                "resource": {
+                    "null_resource": [
+                        {
+                            "vpc_subnet": [
+                                {
+                                    "triggers": {
+                                        "factory_uuid": "6f53dae4-29d7-4098-aa69-4e3afe6e83ec",
+                                        "timestamp": "2025-10-31T05:43:00.862457"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        ],
+        "app": [
+            {
+                "resource": {
+                    "null_resource": [
+                        {
+                            "app_instance": [
+                                {
+                                    "triggers": {
+                                        "factory_uuid": "d73f05bd-37e4-4d25-b3d9-701c9367dad0",
+                                        "timestamp": "2025-10-31T05:43:00.862485"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,18 @@
+[0m[1mInitializing the backend...[0m
+[0m[1mInitializing modules...[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mMissing required argument[0m
+[31m│[0m [0m
+[31m│[0m [0m[0m  on main.tf.json line 19, in module.network[0]:
+[31m│[0m [0m  19:             [4m}[0m[0m
+[31m│[0m [0m
+[31m│[0m [0mThe argument "source" is required, but no definition was found.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mMissing required argument[0m
+[31m│[0m [0m
+[31m│[0m [0m[0m  on main.tf.json line 37, in module.app[0]:
+[31m│[0m [0m  37:             [4m}[0m[0m
+[31m│[0m [0m
+[31m│[0m [0mThe argument "source" is required, but no definition was found.
+[31m╵[0m[0m
